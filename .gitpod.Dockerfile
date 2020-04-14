@@ -1,7 +1,6 @@
 FROM gitpod/workspace-full
 
-# Using files from pulsar-all docker image for pulsar
-FROM apachepulsar/pulsar-all:latest as pulsar
-
 # Copy pulsar files from pulsar-all
-COPY --from=pulsar /pulsar /pulsar
+RUN wget https://archive.apache.org/dist/pulsar/pulsar-2.5.0/apache-pulsar-2.5.0-bin.tar.gz
+RUN tar xvfz apache-pulsar-2.5.0-bin.tar.gz
+RUN mv apache-pulsar-2.5.0 apache-pulsar
