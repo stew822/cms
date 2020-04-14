@@ -6,10 +6,9 @@ ports:
   - port: 6650
 
 tasks:
-  - init: sudo mv apache-pulsar-2.5.0 /workspace/cms/pulsar
-  command: /workspace/cms/pulsar/bin/pulsar standalone
+  - command: ~/apache-pulsar/bin/pulsar standalone
 
-  
+
 vscode:
   extensions:
     - scala-lang.scala@0.3.9:kklqw+c/dNRmtTU8B5repw==
