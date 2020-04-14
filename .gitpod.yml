@@ -5,6 +5,9 @@ ports:
   - port: 8080
   - port: 6650
 
+tasks:
+  - command: /workspace/cms/pulsar/bin/pulsar standalone
+
 vscode:
   extensions:
     - scala-lang.scala@0.3.9:kklqw+c/dNRmtTU8B5repw==
