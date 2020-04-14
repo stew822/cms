@@ -9,8 +9,10 @@ tasks:
   - openMode: tab-after
     command: ~/apache-pulsar/bin/pulsar standalone
     name: pulsar
-
-
+  - openMode: tab-after
+    command: echo "terminal"
+    name: terminal
+  
 vscode:
   extensions:
     - scala-lang.scala@0.3.9:kklqw+c/dNRmtTU8B5repw==
