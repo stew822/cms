@@ -6,7 +6,9 @@ ports:
   - port: 6650
 
 tasks:
-  - command: ~/apache-pulsar/bin/pulsar standalone
+  - openMode: tab-after
+    command: ~/apache-pulsar/bin/pulsar standalone
+    name: pulsar
 
 
 vscode:
