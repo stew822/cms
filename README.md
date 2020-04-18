@@ -1,13 +1,10 @@
 # cms
 trial code for a flexible cms
 
+see the conceptual overview:
+https://docs.google.com/document/d/1Z4br0HVayE_TGUvzL_de-oVUDquMmR4tznBHj18slZw/edit?usp=sharing}
 
-How to use Scala in Gitpod
--> https://www.gitpod.io/docs/languages/scala/
-
-how to set up project for sbt
--> https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html
-
-# run code
-sbt "runMain scala.Producer /workspace/cms/.confluent/java.config test
-topic"
+we are using
+1) apache pulsar for event streaming and storage
+2) apache samza for temporal queries
+3) graphql for queries on current state
