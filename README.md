@@ -11,3 +11,7 @@ we are using
 1) apache pulsar for event streaming and storage
 2) apache samza for temporal queries
 3) graphql for queries on current state
+
+https://opencrux.com/docs
+
+https://sirix.io/
